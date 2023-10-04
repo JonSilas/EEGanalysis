@@ -1,0 +1,62 @@
+{
+  "index.qmd": {
+    "index.html": "8392e93b"
+  },
+  "references.qmd": {
+    "references.html": "bea2bb08"
+  },
+  "01-EEGLAB.qmd": {
+    "01-EEGLAB.html": "4461ed3f"
+  },
+  "Resources.qmd": {
+    "Resources.html": "02eb528c"
+  },
+  "02-getting started.qmd": {
+    "02-getting started.html": "15a47fd3"
+  },
+  "03-import data.qmd": {
+    "03-import data.html": "bf15de4a"
+  },
+  "04-Eye-balling data.qmd": {
+    "04-Eye-balling data.html": "4e0bcc81"
+  },
+  "05-down sample.qmd": {
+    "05-down sample.html": "0092777e"
+  },
+  "06-filtering.qmd": {
+    "06-filtering.html": "ff79d7e2"
+  },
+  "02-getting_started.qmd": {
+    "02-getting_started.html": "5a0a842f"
+  },
+  "03-import_data.qmd": {
+    "03-import_data.html": "4c3d0614"
+  },
+  "04-Eye-balling_data.qmd": {
+    "04-Eye-balling_data.html": "d14bbb49"
+  },
+  "05-down_sample.qmd": {
+    "05-down_sample.html": "df8d2694"
+  },
+  "07-interpolation.qmd": {
+    "07-interpolation.html": "b374dbfc"
+  },
+  "08-re-reference.qmd": {
+    "08-re-reference.html": "7c2e8aec"
+  },
+  "09-ICA.qmd": {
+    "09-ICA.html": "39bea8cb"
+  },
+  "10-artefact_rejection.qmd": {
+    "10-artefact_rejection.html": "12c8b262"
+  },
+  "11-segmentation.qmd": {
+    "11-segmentation.html": "2dd6ce13"
+  },
+  "12-grandaverage.qmd": {
+    "12-grandaverage.html": "44647b11"
+  },
+  "13-submit.qmd": {
+    "13-submit.html": "edbb9180"
+  }
+}

@@ -1,0 +1,73 @@
+# Artefact Rejection {.unnumbered}
+
+We have significantly cleaned the data - we have used filtering to remove frequencies outside of our range of interest, interpolated broken or noisy electrodes and removed components associated with blinks. However, it is still possible that some contamination exists within our data, these could come from a variety of different sources and are often unlikely to be repeated and so identifying them as components is problematic. Rather sections of the data that are contaminated now need to be excluded from any further analysis. 
+
+Classically, this done after segmenting the data and marking segments as 'bad' if they contain data that violates certain criteria usually based on relative voltage. We advise sticking to this traditional approach in most instances - however, the standalone EEGLAB compiled version doesn't include the option to do this. Rather, EEGLAB recommends an automated approach to artefact rejection which adopts an automatic approach to identifying artefacts and rejecting data. A full description isn't needed here but the algorithmic approach works by first identifying clean  data and then rejects data regions if they exceed 20 times (by default) the standard deviation.  
+
+::: {.callout-note collapse="true"}
+# Typical artefact rejection
+One of the biggest differences between EEGLABs automatic artefact rejection and more common forms is that EEGLAb rejects section of the continuous data. Typically, you would segment the data first and then conduct artefact rejection. 
+:::
+
+## How
+
+For the most part we aren't going to tinker with the recomended settings that EEGLAB provide and accpet their recomendations for rejecting sections of the data:
+
+    -> Tools
+      -> Reject data using Clean Rawdata and ASR
+
+
+![](steps\42.png){width="400"}
+
+
+Accept the defaults in the coming pop up window and simply click `Ok`. 
+
+![](steps\43.png){width="500"}
+
+Completing the artefact scanning and rejection can take a while so wait for the `Done.` message on the EEGLAB background terminal.  
+
+
+Make sure you select `Save it as file:` and choose a sensible suffic so you can later easily identify the data and what has been done to it, we've used `_ar`. 
+
+![](steps\44.png){width="500"}
+
+## Test yourself
+
+```{r, echo = FALSE, results = 'asis'}
+
+opts <- c("Absolute voltage", 
+          answer = "Relative voltage", 
+            "Frequency information", 
+            "Electrode positions")
+
+q1 <- mcq(opts)
+
+cat("**Question 1** | In the traditional approach of artefact rejection, what are segments marked as 'bad' based on?","<br><br>", q1)
+```
+
+
+```{r, echo = FALSE, results = 'asis'}
+opts_q2 <- c("10 times", 
+             "15 times", 
+             answer = "20 times", 
+             "25 times")
+
+q2 <- mcq(opts_q2)
+
+cat("**Question 2** | In EEGLAB's automated artefact rejection, data regions are rejected if they exceed how many times the standard deviation?","<br><br>", q2)
+
+
+```
+
+```{r, echo = FALSE, results = 'asis'}
+opts_q3 <- c("EEGLAB rejects segments after segmentation", 
+             "EEGLAB uses frequency-based rejection", 
+             "EEGLAB requires manual marking of segments", 
+             answer = "EEGLAB rejects sections of continuous data")
+
+q3 <- mcq(opts_q3)
+
+cat("**Question 3** | What is one significant difference between EEGLAB's automated artefact rejection and traditional artefact rejection approaches?","<br><br>", q3)
+
+```
+
