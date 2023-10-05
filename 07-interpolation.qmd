@@ -1,6 +1,6 @@
 # Interpolation {.unnumbered}
 
-Now that the data has been down sampled and filtered it is clean enough to visually inspect. This takes some training but isn’t hard to learn. In the first instance we are looking for electrodes that display unusual variance. Sometimes this can be obvious, sometimes a little more subtle. To do this we want to carefully skim through the data by moving through time and looking at all the electrodes. We can play with the settings after we've plotted the [continuous data](04-Eye-balling_data.qmd) to change the scale on the x and y axes to better be able to view the data quickly. 
+Now that the data has been down sampled and filtered it is clean enough to visually inspect. This takes some training but isn’t hard to learn. In the first instance we are looking for electrodes that display unusual variance. Sometimes this can be obvious, sometimes a little more subtle. To do this we want to carefully skim through the data by moving through time and looking at all the electrodes. We can play with the settings after we've plotted the [continuous data](04-Eye-balling_data.qmd#sec-ebdata) to change the scale on the x and y axes to better be able to view the data quickly. 
 
 Spotting these ‘noisy’ or ‘bad’ electrodes takes practice and you’ll improve with time. To be identified as 'bad' electrodes need to meet a few criteria:
 

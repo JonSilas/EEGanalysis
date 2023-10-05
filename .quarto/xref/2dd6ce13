@@ -1,1 +1,1 @@
-{"headings":["how","sec-seg","baseline-correct","plot-the-data","segment-the-next-condition"],"entries":[{"key":"sec-seg","caption":"Segment","order":{"section":[0,1,1,0,0,0,0],"number":1}}],"options":{"chapters":true}}
+{"entries":[{"key":"sec-seg","order":{"section":[0,1,1,0,0,0,0],"number":1},"caption":"Segment"}],"options":{"chapters":true},"headings":["how","sec-seg","baseline-correct","plot-the-data","segment-the-next-condition"]}
