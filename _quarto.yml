@@ -3,6 +3,8 @@ project:
 number-sections: false
 
 book:
+  google-analytics: 
+    tracking-id: G-GSY6VFHW6X
   favicon: images/icon.ico
   title: EEG Analysis
   author: Jon Silas & Alex Jones
@@ -18,7 +20,7 @@ book:
     collapse-level: 1
     tools:
       - icon: github
-        href: https://github.com/JonSilas
+        href: https://github.com/JonSilas/EEGanalysis
   chapters:
     - index.qmd
     - part: 01-EEGLAB.qmd

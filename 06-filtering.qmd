@@ -43,7 +43,7 @@ Your filtering isn't yet finished. Wait till the pop-up giving you the opportuni
 
 ## More eye-balling
 
-Now, let's visually inspect the data to see what it looks like after filtering. You want to plot the continuous data and scroll through it, if you don't remember how to do that you can check back to [Eye-balling](04-Eye-balling_data.qmd#Plot continous data) chapter, specifically: @sec-ebdata. 
+Now, let's visually inspect the data to see what it looks like after filtering. You want to plot the continuous data and scroll through it, if you don't remember how to do that you can check back to [Eye-balling](04-Eye-balling_data.qmd#Plot continous data) chapter, specifically, [Plotting continuous data](04-Eye-balling_data.qmd#sec-ebdata). 
 
 Your newly filtered data should look a little like the image below. 
 
