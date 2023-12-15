@@ -1,1 +1,1 @@
-{"entries":[{"order":{"section":[0,1,2,0,0,0,0],"number":1},"key":"sec-ebdata","caption":"Plot continous data"}],"headings":["how","plot-channel-locations","sec-ebdata","test-yourself"],"options":{"chapters":true}}
+{"entries":[{"order":{"number":1,"section":[0,1,2,0,0,0,0]},"key":"sec-ebdata","caption":"Plot continuous data"}],"options":{"chapters":true},"headings":["how","plot-channel-locations","sec-ebdata","test-yourself"]}

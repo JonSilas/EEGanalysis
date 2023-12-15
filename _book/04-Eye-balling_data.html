@@ -301,7 +301,7 @@ background: orange;
   <li><a href="#how" id="toc-how" class="nav-link active" data-scroll-target="#how">How</a>
   <ul class="collapse">
   <li><a href="#plot-channel-locations" id="toc-plot-channel-locations" class="nav-link" data-scroll-target="#plot-channel-locations">Plot channel locations</a></li>
-  <li><a href="#sec-ebdata" id="toc-sec-ebdata" class="nav-link" data-scroll-target="#sec-ebdata">Plot continous data</a></li>
+  <li><a href="#sec-ebdata" id="toc-sec-ebdata" class="nav-link" data-scroll-target="#sec-ebdata">Plot continuous data</a></li>
   </ul></li>
   <li><a href="#test-yourself" id="toc-test-yourself" class="nav-link" data-scroll-target="#test-yourself">Test yourself</a></li>
   </ul>
@@ -323,7 +323,7 @@ background: orange;
   -&gt; Channnel locations
     -&gt; By name</code></pre>
 <p><img src="steps\4.png" class="img-fluid" width="400"></p>
-<p>You should see a schematic of a head, with labeled dots all over it. The triangle at the top represents a nose so you know the facing direction. The labels are the name of electrodes used in the <a href="https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)">international 10-20 system of EEG scalp electrode placement</a>. Your plot should like something like what is shown below.</p>
+<p>You should see a schematic of a head, with labelled dots all over it. The triangle at the top represents a nose so you know the facing direction. The labels are the name of electrodes used in the <a href="https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)">international 10-20 system of EEG scalp electrode placement</a>. Your plot should be something like what is shown below.</p>
 <p><img src="steps\5.png" class="img-fluid" width="400"></p>
 <p>We can sense check this schematic representation of the spatial locations of our electrodes based on what we know about the 10-20 system. All electrodes with an odd number should be on the left of the head, those with an even number on the right and those ending in a <code>z</code> down the mid-line. Those electrodes starting with certain letters also indicate that they are over a specific brain region:</p>
 <ul>
@@ -335,8 +335,8 @@ background: orange;
 <p>Close the plots that are open.</p>
 </section>
 <section id="sec-ebdata" class="level3">
-<h3 class="anchored" data-anchor-id="sec-ebdata">Plot continous data</h3>
-<p>We can now visually examine the actual EEG data, although at this stage it is unlikely to be particularly useful given that we have done very little processing. We are going to ask EEGLAB to plot the ‘continuous’ data - that means all of the EEG data in one long chunk in one graph. To do that click:</p>
+<h3 class="anchored" data-anchor-id="sec-ebdata">Plot continuous data</h3>
+<p>We can now visually examine the actual EEG data, although at this stage it is unlikely to be particularly useful given that we have done very little processing. We are going to ask EEGLAB to plot the ‘continuous’ data - that means all the EEG data is one long chunk in one graph. To do that click:</p>
 <pre><code>-&gt; plot
   -&gt; Channel data (scroll)</code></pre>
 <p><img src="steps\6.png" class="img-fluid" width="400"></p>
@@ -347,7 +347,7 @@ background: orange;
 </section>
 <section id="test-yourself" class="level2">
 <h2 class="anchored" data-anchor-id="test-yourself">Test yourself</h2>
-<p><strong>Question 1</strong> | When plotting continuos data what do the labels plotted on the y-axis represent? <br><br><input class="webex-solveme nospaces ignorecase" size="20" data-answer="[&quot;electrodes&quot;,&quot;channels&quot;]"></p>
+<p><strong>Question 1</strong> | When plotting continuous data what do the labels plotted on the y-axis represent? <br><br><input class="webex-solveme nospaces ignorecase" size="20" data-answer="[&quot;electrodes&quot;,&quot;channels&quot;]"></p>
 <p><strong>Question 2</strong> | What is the name of the international system for electrode placement? <br><br> <select class="webex-select"><option value="blank"></option><option value="">10-10</option><option value="">20-10</option><option value="answer">10-20</option><option value="">5-5</option></select></p>
 
 

@@ -1,6 +1,6 @@
 # Down Sample {.unnumbered}
 
-As explained, the sample rate, in Hz, is the number of times a second the analogue EEG signal is stored on a digital computer in a second. During recording we sampled at 1000 Hz - that means for each second 1000 samples were taken for each electrode. In experimental sessions - the EEG recording can often be at least an hour long. So, for 64 electrodes for an hour long we have taken 1000 digital samples a second - all in all that's a lot of data! For us to be able to manipulate this data for this tutorial we want to be able to do so quickly so we are going to 'down sample' and reduce the amount of data we hold. Instead of 1000 samples a second we are going to take one quarter of those data points and down sample to 250 Hz. 
+As explained, the sample rate, in Hz, is the number of times a second the analogue EEG signal is stored on a digital computer in a second. During recording we sampled at 1000 Hz - that means for each second 1000 samples were taken for each electrode. In experimental sessions - the EEG recording can often be at least an hour long. So, for 64 electrodes for an hour, we have taken 1000 digital samples a second - all in all that's a lot of data! For us to be able to manipulate this data for this tutorial we want to be able to do so quickly so we are going to 'down sample' and reduce the amount of data we hold. Instead of 1000 samples a second we are going to take one quarter of those data points and down sample to 250 Hz. 
 
 ## How
 To down sample the data for this participant click: 
@@ -19,10 +19,10 @@ A pop-up will appear, enter `250` as the new sample rate and click `Ok`.
 ## EEGLAb does **not** automatically save your analysis steps
 **Make sure you select options that will allow you to save your work.**
 
-We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labeling system so that you can easily identify each file and the processing that has been done to it. 
+We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labelling system so that you can easily identify each file and the processing that has been done to it. 
 :::
 
-Next a pop will appear asking you what you want to do with the new dataset - make sure you `Name it` and select the option to `Save it to file` the click `browse` to select an appropriate directory. Use a simple naming convention, this data is from participant 03 and has been resampled, so we've called it `p03 resampled` and saved it on a local directory, like so: 
+Next a pop will appear asking you what you want to do with the new dataset - make sure you `Name it` and select the option to `Save it to file` then click `browse` to select an appropriate directory. Use a simple naming convention, this data is from Participant 03 and has been resampled, so we've called it `p03 resampled` and saved it on a local directory, like so: 
 
 ![](steps\10.png){width="500"}
 
@@ -32,13 +32,13 @@ Once you've clicked `Ok` double check everything is as expected.
 
 ![](steps\11.png){width="400"}
 
-2. Use your computers file explorer to check that the file is where you saved it - you should see two files as you named them one ending in `.fdt` and another ending in `.set`. Like this: 
+2. Use your computer's file explorer to check that the file is where you saved it - you should see two files as you named them one ending in `.fdt` and another ending in `.set`. Like this: 
 
 ![](steps\12.png){width="300"}
 
 ::: {.callout-note collapse="true"}
 ## EEGLAb file types
-The two file types saved by EEGLAB contain different information. `.set` files contain the EEG structure but not the data, while a `.fdt` files contain the EEG data but not the rest of the structure. Data structure and how data is held in memory is actually quite a complicated topic, if you are interested in learning more see [information here](https://eeglab.org/tutorials/ConceptsGuide/Data_Structures.html)
+The two file types saved by EEGLAB contains different information. `.set` files contain the EEG structure but not the data, while `.fdt` files contain the EEG data but not the rest of the structure. Data structure and how data is held in memory is quite a complicated topic, if you are interested in learning more see [information here](https://eeglab.org/tutorials/ConceptsGuide/Data_Structures.html)
 :::
 
 ## Test yourself
