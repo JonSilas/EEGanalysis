@@ -13,7 +13,7 @@ Let's start by making sure that the header information was read in correctly and
 
 ![](steps\4.png){width="400"}
 
-You should see a schematic of a head, with labeled dots all over it. The triangle at the top represents a nose so you know the facing direction. The labels are the name of electrodes used in the [international 10-20 system of EEG scalp electrode placement](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). Your plot should like something like what is shown below. 
+You should see a schematic of a head, with labelled dots all over it. The triangle at the top represents a nose so you know the facing direction. The labels are the name of electrodes used in the [international 10-20 system of EEG scalp electrode placement](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). Your plot should be something like what is shown below. 
 
 ![](steps\5.png){width="400"}
 
@@ -26,9 +26,9 @@ We can sense check this schematic representation of the spatial locations of our
 
 Close the plots that are open.
 
-### Plot continous data {#sec-ebdata}
+### Plot continuous data {#sec-ebdata}
 
-We can now visually examine the actual EEG data, although at this stage it is unlikely to be particularly useful given that we have done very little processing. We are going to ask EEGLAB to plot the 'continuous' data - that means all of the EEG data in one long chunk in one graph. To do that click: 
+We can now visually examine the actual EEG data, although at this stage it is unlikely to be particularly useful given that we have done very little processing. We are going to ask EEGLAB to plot the 'continuous' data - that means all the EEG data is one long chunk in one graph. To do that click: 
 
     -> plot
       -> Channel data (scroll)
@@ -46,7 +46,7 @@ In the first instance - this image isn't particularly useful. the actual EEG dat
 ## Test yourself
 
 ```{r,echo = FALSE, results = 'asis'}
-question <- "**Question 1** | When plotting continuos data what do the labels plotted on the y-axis represent? "
+question <- "**Question 1** | When plotting continuous data what do the labels plotted on the y-axis represent? "
 cat(paste(question, "<br><br>", sep = ""))
 
 cat(fitb(c("electrodes", "channels"), ignore_case = TRUE, width = "20"))

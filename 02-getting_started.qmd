@@ -10,7 +10,7 @@ Run the installation software and open EEGLAB on your machine.
 
 If you can’t get it running on your machine, you can use machines in class and speak to staff about support on getting EEGLAB installed on loan machines. 
 
-The Matlab version of EEGLAB is somewhat more stable and there are more features that are available. We haven't used this as it's not completely free and we want what you learn to be available to you after you leave. However, if you want to install Matlab, for now Middlesex provides a liscence, create an account and download Matlab here: 
+The Matlab version of EEGLAB is somewhat more stable and there are more features that are available. We haven't used this as it's not completely free and we want what you learn to be available to you after you leave. However, if you want to install Matlab, for now Middlesex provides a licence, create an account and download Matlab here: 
 
 -  [Matlab Middlesex Licence Version](https://uk.mathworks.com/academia/tah-portal/middlesex-university-599605.html)
 
@@ -43,4 +43,4 @@ Each file is named with a participant number e.g., `Participant_03 `. There are 
 
 -  `.eeg` - the actual EEG data recorded digitally. 
 -  `.vhdr` - the 'header' information, this gives us the names and spatial location of the electrodes. 
--  `.vmrk` - this file stores the 'trigger information'; information sent from the experimental computer containing information about when a participant saw a particular stimuli or gave a specific response. 
+-  `.vmrk` - this file stores the 'trigger information'; information sent from the experimental computer containing information about when a participant saw a particular stimulus or gave a specific response. 
