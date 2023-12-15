@@ -309,7 +309,7 @@ background: orange;
 
 
 
-<p>As explained, the sample rate, in Hz, is the number of times a second the analogue EEG signal is stored on a digital computer in a second. During recording we sampled at 1000 Hz - that means for each second 1000 samples were taken for each electrode. In experimental sessions - the EEG recording can often be at least an hour long. So, for 64 electrodes for an hour long we have taken 1000 digital samples a second - all in all that’s a lot of data! For us to be able to manipulate this data for this tutorial we want to be able to do so quickly so we are going to ‘down sample’ and reduce the amount of data we hold. Instead of 1000 samples a second we are going to take one quarter of those data points and down sample to 250 Hz.</p>
+<p>As explained, the sample rate, in Hz, is the number of times a second the analogue EEG signal is stored on a digital computer in a second. During recording we sampled at 1000 Hz - that means for each second 1000 samples were taken for each electrode. In experimental sessions - the EEG recording can often be at least an hour long. So, for 64 electrodes for an hour, we have taken 1000 digital samples a second - all in all that’s a lot of data! For us to be able to manipulate this data for this tutorial we want to be able to do so quickly so we are going to ‘down sample’ and reduce the amount of data we hold. Instead of 1000 samples a second we are going to take one quarter of those data points and down sample to 250 Hz.</p>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
 <p>To down sample the data for this participant click:</p>
@@ -331,11 +331,11 @@ EEGLAb does <strong>not</strong> automatically save your analysis steps
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Make sure you select options that will allow you to save your work.</strong></p>
-<p>We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labeling system so that you can easily identify each file and the processing that has been done to it.</p>
+<p>We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labelling system so that you can easily identify each file and the processing that has been done to it.</p>
 </div>
 </div>
 </div>
-<p>Next a pop will appear asking you what you want to do with the new dataset - make sure you <code>Name it</code> and select the option to <code>Save it to file</code> the click <code>browse</code> to select an appropriate directory. Use a simple naming convention, this data is from participant 03 and has been resampled, so we’ve called it <code>p03 resampled</code> and saved it on a local directory, like so:</p>
+<p>Next a pop will appear asking you what you want to do with the new dataset - make sure you <code>Name it</code> and select the option to <code>Save it to file</code> then click <code>browse</code> to select an appropriate directory. Use a simple naming convention, this data is from Participant 03 and has been resampled, so we’ve called it <code>p03 resampled</code> and saved it on a local directory, like so:</p>
 <p><img src="steps\10.png" class="img-fluid" width="500"></p>
 <p>Once you’ve clicked <code>Ok</code> double check everything is as expected.</p>
 <ol type="1">
@@ -343,7 +343,7 @@ EEGLAb does <strong>not</strong> automatically save your analysis steps
 </ol>
 <p><img src="steps\11.png" class="img-fluid" width="400"></p>
 <ol start="2" type="1">
-<li>Use your computers file explorer to check that the file is where you saved it - you should see two files as you named them one ending in <code>.fdt</code> and another ending in <code>.set</code>. Like this:</li>
+<li>Use your computer’s file explorer to check that the file is where you saved it - you should see two files as you named them one ending in <code>.fdt</code> and another ending in <code>.set</code>. Like this:</li>
 </ol>
 <p><img src="steps\12.png" class="img-fluid" width="300"></p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -358,7 +358,7 @@ EEGLAb file types
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The two file types saved by EEGLAB contain different information. <code>.set</code> files contain the EEG structure but not the data, while a <code>.fdt</code> files contain the EEG data but not the rest of the structure. Data structure and how data is held in memory is actually quite a complicated topic, if you are interested in learning more see <a href="https://eeglab.org/tutorials/ConceptsGuide/Data_Structures.html">information here</a></p>
+<p>The two file types saved by EEGLAB contains different information. <code>.set</code> files contain the EEG structure but not the data, while <code>.fdt</code> files contain the EEG data but not the rest of the structure. Data structure and how data is held in memory is quite a complicated topic, if you are interested in learning more see <a href="https://eeglab.org/tutorials/ConceptsGuide/Data_Structures.html">information here</a></p>
 </div>
 </div>
 </div>

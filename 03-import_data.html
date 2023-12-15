@@ -309,16 +309,16 @@ background: orange;
 
 
 
-<p>Before we can do anything to the data, we need to import it into EEGLAB. EEG data can take many different formats depending on how it has been recorded and if it has been processed or not. We are going to import in ‘raw’ data that is to say, data that has not been processed at all since it’s recording. The data we will take in was recorded on hardware (the actual EEG recording system) made by <a href="https://www.brainproducts.com/">Brain Products</a>, the specific amplifier is called an <a href="https://www.brainproducts.com/solutions/actichamp/">actiCHamp plus</a> and we recorded data from 64 electrodes placed on scalp in a 10-20 format using an <a href="https://www.brainproducts.com/solutions/acticap/">actiCAP snap</a> headset.</p>
+<p>Before we can do anything to the data, we need to import it into EEGLAB. EEG data can take many different formats depending on how it has been recorded and if it has been processed or not. We are going to import in ‘raw’ data, which is data that has not been processed at all since it’s recording. The data we will take in was recorded on hardware (the actual EEG recording system) made by <a href="https://www.brainproducts.com/">Brain Products</a>, the specific amplifier is called an <a href="https://www.brainproducts.com/solutions/actichamp/">actiCHamp plus</a> and we recorded data from 64 electrodes placed on the scalp in a 10-20 format using an <a href="https://www.brainproducts.com/solutions/acticap/">actiCAP snap</a> headset.</p>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
 <p>In EEGLAB click the following menus:</p>
 <pre><code>-&gt; File
   -&gt; Import data
     -&gt; Using EEGLAB functions and plugins
-      -&gt; From Brain Vis. Rev. .vhdr or .ahdr file</code></pre>
+      -&gt; From Brain Vis. Rec. .vhdr or .ahdr file</code></pre>
 <p><img src="steps/1.png" class="img-fluid" width="500"></p>
-<p>A popup menu will appear, leave the boxes blank and click <code>Ok</code>. The defaults here are telling EEGLAB you want to import all the data (intervals) from all of the electrodes (channels).</p>
+<p>A popup menu will appear, leave the boxes blank and click <code>Ok</code>. The defaults here are telling EEGLAB you want to import all the data (intervals) from all the electrodes (channels).</p>
 <p><img src="steps/2.png" class="img-fluid" width="300"></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -336,7 +336,7 @@ Terminology
 </div>
 </div>
 </div>
-<p>Next a pop will appear asking you what you want to do with the new dataset - make sure you <code>Name it</code> and select the option to <code>Save it to file</code> the click <code>browse</code> to select an appropriate directory. Use a simple naming convention, this data is from participant 03, so we’ve called it <code>p03</code> and saved it on a local directory, as shown in the figure below. When we save our data after further processing steps, we will amend our file names in a way that will allow us to identify what we’ve done to the data.</p>
+<p>Next a pop will appear asking you what you want to do with the new dataset - make sure you <code>Name it</code> and select the option to <code>Save it to file</code> then click <code>browse</code> to select an appropriate directory. Use a simple naming convention, this data is from Participant 03, so we’ve called it <code>p03</code> and saved it in a local directory, as shown in the figure below. When we save our data after further processing steps, we will amend our file names in a way that will allow us to identify what we’ve done to the data.</p>
 <p><img src="steps\10.png" class="img-fluid" width="500"></p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -351,11 +351,11 @@ EEGLAb does <strong>not</strong> automatically save your analysis steps
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Make sure you select options that will allow you to save your work.</strong></p>
-<p>We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labeling system so that you can easily identify each file and the processing that has been done to it.</p>
+<p>We strongly recommend saving your data after every step of the analysis - this will mean that if you later encounter an issue with your analysis, it will be easy enough for you to pick up from an earlier point and not have to restart all over again. You should use your own labelling system so that you can easily identify each file and the processing that has been done to it.</p>
 </div>
 </div>
 </div>
-<p>After you’ve clicked <code>Ok</code> navigate back to the EEGLAB home window - this window contains useful information about you current dataset. Look through what information is displayed on the current home window. You won’t understand all of what is currently displayed here but as you progress through this tutorial you should be able to learn more about what this information means. Furthermore, the home window will be a useful way to check that the processing steps have been correctly applied to the data.</p>
+<p>After you’ve clicked <code>Ok</code> navigate back to the EEGLAB home window - this window contains useful information about your current dataset. Look through what information is displayed on the current home window. You won’t understand all of what is currently displayed here but as you progress through this tutorial you should be able to learn more about what this information means. Furthermore, the home window will be a useful way to check that the processing steps have been correctly applied to the data.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="steps/3.png" class="img-fluid figure-img" width="400"></p>
@@ -384,7 +384,7 @@ Importing after the first time
 <h2 class="anchored" data-anchor-id="test-yourself">Test yourself</h2>
 <p><strong>Question 1</strong> | What is the sample rate for the data you’ve just imported? <br><br><input class="webex-solveme nospaces ignorecase" size="20" data-answer="[&quot;1000&quot;]"></p>
 <p><strong>Question 2</strong> | What is the unit of the sample rate? <br><br> <select class="webex-select"><option value="blank"></option><option value="answer">Hz</option><option value="">mV</option><option value="">mA</option><option value="">ms</option></select></p>
-<p><strong>Question 3</strong> | What is the sample rate? <br><br> <select class="webex-select"><option value="blank"></option><option value="">The frequency of the EEG signal.</option><option value="answer">The number of times the EEG signal is digitized per second.</option><option value="">A small ‘sample’ of the data at a specific frequency.</option><option value="">The number of oscilations at a specific frequency.</option></select></p>
+<p><strong>Question 3</strong> | What is the sample rate? <br><br> <select class="webex-select"><option value="blank"></option><option value="">The frequency of the EEG signal.</option><option value="answer">The number of times the EEG signal is digitized per second.</option><option value="">A small ‘sample’ of the data at a specific frequency.</option><option value="">The number of oscillations at a specific frequency.</option></select></p>
 
 
 </section>
