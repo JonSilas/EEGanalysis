@@ -11,7 +11,7 @@ One of the biggest differences between EEGLABs automatic artefact rejection and 
 
 ## How
 
-For the most part we aren't going to tinker with the recomended settings that EEGLAB provide and accpet their recomendations for rejecting sections of the data:
+For the most part we aren't going to tinker with the recommended settings that EEGLAB provides and accept their recommendations for rejecting sections of the data:
 
     -> Tools
       -> Reject data using Clean Rawdata and ASR
@@ -20,14 +20,14 @@ For the most part we aren't going to tinker with the recomended settings that EE
 ![](steps\42.png){width="400"}
 
 
-Accept the defaults in the coming pop up window and simply click `Ok`. 
+Accept the defaults in the coming pop-up window and simply click `Ok`. 
 
 ![](steps\43.png){width="500"}
 
 Completing the artefact scanning and rejection can take a while so wait for the `Done.` message on the EEGLAB background terminal.  
 
 
-Make sure you select `Save it as file:` and choose a sensible suffic so you can later easily identify the data and what has been done to it, we've used `_ar`. 
+Make sure you select `Save it as file:` and choose a sensible suffix so you can later easily identify the data and what has been done to it, we've used `_ar`. 
 
 ![](steps\44.png){width="500"}
 

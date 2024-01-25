@@ -1,6 +1,6 @@
 # Resources
 
-There are multiple sources of information that you should use to help you along your journey to better understanding EEG analysis.
+There are multiple sources of information that you should use to help you along your journey to better understand EEG analysis.
 
 ## EEGLAB Specific
 
