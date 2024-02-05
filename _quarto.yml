@@ -23,8 +23,9 @@ book:
         href: https://github.com/JonSilas/EEGanalysis
   chapters:
     - index.qmd
-    - part: 01-EEGLAB.qmd
-      chapters: 
+    - part: "Using EEGLAB"
+      chapters:
+        - 01-EEGLAB.qmd
         - 02-getting_started.qmd
         - 03-import_data.qmd
         - 04-Eye-balling_data.qmd

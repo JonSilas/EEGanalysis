@@ -1,6 +1,6 @@
 # All Participants {.unnumbered}
 
-Great - we have now worked through cleaning the data as needed to extract an Event Related Potential (ERP) for one participant. To complete the rest of the exercise in order to produce an ERP averaged across all participants - a 'Grand Average ERP' you will need to complete all the steps again for each participant in the downloaded data. Importantly, you need to make sure you save both ERP datasets for each condition (Rhythmic and Arrhythmic) for every participant. 
+Great - we have now worked through cleaning the data as needed to extract an Event Related Potential (ERP) for one participant. To complete the rest of the exercise to produce an ERP averaged across all participants - a 'Grand Average ERP' you will need to complete all the steps again for each participant in the downloaded data. Importantly, you need to make sure you save both ERP datasets for each condition (Rhythmic and Arrhythmic) for every participant. 
 
 ## Repeating the steps. 
 
@@ -22,7 +22,7 @@ A grand average ERP is the average of all ERPs for each individual participant -
 
 ### How
 
-To compute a grand average ERP follow these steps: 
+To compute a grand average ERP, follow these steps: 
 
     -> File
       -> Create study
@@ -30,13 +30,13 @@ To compute a grand average ERP follow these steps:
         
 ![](steps\56.png){width="400"}
 
-If you have analysed all the data from all the participants in the data provided, you should have data from 6 participants, each with 2 conditions. You will need to identify this in the pop up window that appears next: 
+If you have analysed all the data from all the participants in the data provided, you should have data from 3 participants, each with 2 conditions. You will need to identify this in the pop-up window that appears next: 
 
 
 ![](steps\57.png){width="400"}
 
 
-In the following pop up window you need to include the files that you created in the [Segmentation chapter](11-segmentation.qmd), you should have two files for each participant, one for each condition. Give your study and conditions a name and load up the appropriate files for each participant and each condition. Make sure you load the correct file in to the correct condition as shown below.   
+In the following pop-up window you need to include the files that you created in the [Segmentation chapter](11-segmentation.qmd), you should have two files for each participant, one for each condition. Give your study and conditions a name and load up the appropriate files for each participant and each condition. Make sure you load the correct file in to the correct condition as shown below.   
 
 
 ![](steps\58.png){width="600"}
@@ -45,4 +45,4 @@ After clicking `Ok` the resultant plot that will appear is a grand average ERP f
 
 ## End
 
-Congratulations on completing the analysis! There's a lot to learna and a lot to take in so don't worry if it took you longer than expected. If you're unsure about certain sections or have got stuck at any point, remember support is available in class but you can also contact the module leaders to ask any questions via email or to book a one-to-one meeting and go through your questions. 
+Congratulations on completing the analysis! There's a lot to learn and a lot to take in so don't worry if it took you longer than expected. If you're unsure about certain sections or have got stuck at any point, remember support is available in class but you can also contact the module leaders to ask any questions via email or to book a one-to-one meeting and go through your questions. 

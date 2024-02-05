@@ -12,6 +12,9 @@ This is a companion guide to the module PSY4061 Practical Cognitive Neuroscience
 You should submit your final functioning EEG analysis write up as part of your portfolio.
 
 **Portfolio submission deadline - 15.04.24 10am**
+
+[See instructions on how to submit your work here](13-submit.qmd)
+
 :::
 
 For this part of your assessment, you will have to analyse some EEG data and then answer some general questions about EEG analysis and interpret some EEG data. The EEG analysis is taught in a program called **EEGLAB**.
