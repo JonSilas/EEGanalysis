@@ -215,13 +215,19 @@ background: orange;
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Using EEGLAB</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-getting_started.html" class="sidebar-item-text sidebar-link active">
@@ -370,14 +376,14 @@ Download the data
 <p><a href="https://drive.google.com/uc?export=download&amp;id=1pVrJfJIme5so6SIolbEGHKVmZGNTYMyT">Click here to download the data for this tutorial</a></p>
 </div>
 </div>
-<p>The data for this tutorial includes data from 6 participants - this isn’t the whole data analysed in the <span class="citation" data-cites="jones2019rhythmic">Jones &amp; Ward (<a href="references.html#ref-jones2019rhythmic" role="doc-biblioref">2019</a>)</span> paper but a subset - we think 6 participants is enough for you to get used to analysis and produce a good ERP by the end of the tutorial.</p>
+<p>The data for this tutorial includes data from 3 participants - this isn’t the whole data analysed in the <span class="citation" data-cites="jones2019rhythmic">Jones &amp; Ward (<a href="references.html#ref-jones2019rhythmic" role="doc-biblioref">2019</a>)</span> paper but a subset - we think 3 participants is enough for you to get used to analysis and produce a good ERP by the end of the tutorial.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The file is about 3Gb and may take a while to download.
+The file is about 1.5 Gb and may take a while to download.
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -388,7 +394,7 @@ The file is about 3Gb and may take a while to download.
 </section>
 <section id="data-format" class="level2">
 <h2 class="anchored" data-anchor-id="data-format">Data format</h2>
-<p>Each file is named with a participant number e.g., <code>Participant_03</code>. There are 6 participant datasets in total. Each participant has 3 separate files each named the same thing with different file formats:</p>
+<p>Each file is named with a participant number e.g., <code>Participant_03</code>. There are 3 participant datasets in total. Each participant has 3 separate files each named the same thing with different file formats:</p>
 <ul>
 <li><code>.eeg</code> - the actual EEG data recorded digitally.</li>
 <li><code>.vhdr</code> - the ‘header’ information, this gives us the names and spatial location of the electrodes.</li>
@@ -975,7 +981,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./01-EEGLAB.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Using EEGLAB</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

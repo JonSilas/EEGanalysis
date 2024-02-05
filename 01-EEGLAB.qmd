@@ -1,4 +1,4 @@
-# Using EEGLAB {.unnumbered} 
+# Overview {.unnumbered} 
 ::: {style="float:right;position: relative; top: -10px;"}
 ![](images/eeglab.png){width="200"}
 :::

@@ -30,7 +30,7 @@ To compute a grand average ERP, follow these steps:
         
 ![](steps\56.png){width="400"}
 
-If you have analysed all the data from all the participants in the data provided, you should have data from 6 participants, each with 2 conditions. You will need to identify this in the pop-up window that appears next: 
+If you have analysed all the data from all the participants in the data provided, you should have data from 3 participants, each with 2 conditions. You will need to identify this in the pop-up window that appears next: 
 
 
 ![](steps\57.png){width="400"}

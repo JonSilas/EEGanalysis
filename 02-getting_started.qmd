@@ -25,13 +25,11 @@ Once installed and up and running, you can follow the instructions here on how t
 [Click here to download the data for this tutorial](https://drive.google.com/uc?export=download&id=1pVrJfJIme5so6SIolbEGHKVmZGNTYMyT)
 :::
 
-The data for this tutorial includes data from 6 participants - this isn't the whole data analysed in the @jones2019rhythmic paper but a subset - we think 6 participants is enough for you to get used to analysis and produce a good ERP by the end of the tutorial. 
-
-
+The data for this tutorial includes data from 3 participants - this isn't the whole data analysed in the @jones2019rhythmic paper but a subset - we think 3 participants is enough for you to get used to analysis and produce a good ERP by the end of the tutorial. 
 
 
 ::: {.callout-warning}
-## The file is about 3Gb and may take a while to download. 
+## The file is about 1.5 Gb and may take a while to download. 
 :::
 
 Once you've downloaded the file unzip it and extract the containing data. 
@@ -39,7 +37,7 @@ Once you've downloaded the file unzip it and extract the containing data.
 
 ## Data format
 
-Each file is named with a participant number e.g., `Participant_03 `. There are 6 participant datasets in total. Each participant has 3 separate files each named the same thing with different file formats: 
+Each file is named with a participant number e.g., `Participant_03 `. There are 3 participant datasets in total. Each participant has 3 separate files each named the same thing with different file formats: 
 
 -  `.eeg` - the actual EEG data recorded digitally. 
 -  `.vhdr` - the 'header' information, this gives us the names and spatial location of the electrodes. 

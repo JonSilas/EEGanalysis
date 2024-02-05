@@ -196,13 +196,19 @@ background: orange;
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Using EEGLAB</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-getting_started.html" class="sidebar-item-text sidebar-link">
@@ -313,7 +319,7 @@ background: orange;
 
 
 
-<p>Great - we have now worked through cleaning the data as needed to extract an Event Related Potential (ERP) for one participant. To complete the rest of the exercise in order to produce an ERP averaged across all participants - a ‘Grand Average ERP’ you will need to complete all the steps again for each participant in the downloaded data. Importantly, you need to make sure you save both ERP datasets for each condition (Rhythmic and Arrhythmic) for every participant.</p>
+<p>Great - we have now worked through cleaning the data as needed to extract an Event Related Potential (ERP) for one participant. To complete the rest of the exercise to produce an ERP averaged across all participants - a ‘Grand Average ERP’ you will need to complete all the steps again for each participant in the downloaded data. Importantly, you need to make sure you save both ERP datasets for each condition (Rhythmic and Arrhythmic) for every participant.</p>
 <section id="repeating-the-steps." class="level2">
 <h2 class="anchored" data-anchor-id="repeating-the-steps.">Repeating the steps.</h2>
 <p>You will need to go back through the steps you’ve completed in the order they appeared.</p>
@@ -337,22 +343,22 @@ background: orange;
 <p>A grand average ERP is the average of all ERPs for each individual participant - it isn’t used for statistical analysis but provides an excellent visual representation of the ERP data across participants for each condition. It’s not the only type of representation of ERPs but certainly the most common. Once you’ve completed the analysis steps for all of the participant’s data in the downloadable data you can construct an average for all the participants and compare conditions.</p>
 <section id="how" class="level3">
 <h3 class="anchored" data-anchor-id="how">How</h3>
-<p>To compute a grand average ERP follow these steps:</p>
+<p>To compute a grand average ERP, follow these steps:</p>
 <pre><code>-&gt; File
   -&gt; Create study
     -&gt; Simple ERP study 
     </code></pre>
 <p><img src="steps\56.png" class="img-fluid" width="400"></p>
-<p>If you have analysed all the data from all the participants in the data provided, you should have data from 6 participants, each with 2 conditions. You will need to identify this in the pop up window that appears next:</p>
+<p>If you have analysed all the data from all the participants in the data provided, you should have data from 3 participants, each with 2 conditions. You will need to identify this in the pop-up window that appears next:</p>
 <p><img src="steps\57.png" class="img-fluid" width="400"></p>
-<p>In the following pop up window you need to include the files that you created in the <a href="./11-segmentation.html">Segmentation chapter</a>, you should have two files for each participant, one for each condition. Give your study and conditions a name and load up the appropriate files for each participant and each condition. Make sure you load the correct file in to the correct condition as shown below.</p>
+<p>In the following pop-up window you need to include the files that you created in the <a href="./11-segmentation.html">Segmentation chapter</a>, you should have two files for each participant, one for each condition. Give your study and conditions a name and load up the appropriate files for each participant and each condition. Make sure you load the correct file in to the correct condition as shown below.</p>
 <p><img src="steps\58.png" class="img-fluid" width="600"></p>
 <p>After clicking <code>Ok</code> the resultant plot that will appear is a grand average ERP for each electrode plotted on a topographic map. This image and the image of the grand average ERPs at electrodes PO7 and PO8 are what is needed for your portfolio. We haven’t provided that final output here as you will need to generate that yourself.</p>
 </section>
 </section>
 <section id="end" class="level2">
 <h2 class="anchored" data-anchor-id="end">End</h2>
-<p>Congratulations on completing the analysis! There’s a lot to learna and a lot to take in so don’t worry if it took you longer than expected. If you’re unsure about certain sections or have got stuck at any point, remember support is available in class but you can also contact the module leaders to ask any questions via email or to book a one-to-one meeting and go through your questions.</p>
+<p>Congratulations on completing the analysis! There’s a lot to learn and a lot to take in so don’t worry if it took you longer than expected. If you’re unsure about certain sections or have got stuck at any point, remember support is available in class but you can also contact the module leaders to ask any questions via email or to book a one-to-one meeting and go through your questions.</p>
 
 
 </section>

@@ -196,13 +196,19 @@ background: orange;
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Using EEGLAB</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-EEGLAB.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-getting_started.html" class="sidebar-item-text sidebar-link">
@@ -309,14 +315,14 @@ background: orange;
 
 
 
-<p>Voltage is the measure of potential difference between two measurement locations. Therefore, any voltage fluctuation we see at any given electrode is relative to measurements taken from another location. There is a lengthy debate in the literature about the appropriate reference to use for EEG analysis and it will depend greatly on the type of experiment you are running and previous research. However, increasingly, with high numbers of electrodes placed all over the scalp many researchers are choosing to use an ‘average reference’ – that is, the average voltage measurement taken across all electrodes is used as the reference point, rather than measurements taken from any one electrode.</p>
+<p>Voltage is the measure of the potential difference between two measurement locations. Therefore, any voltage fluctuation we see at any given electrode is relative to measurements taken from another location. There is a lengthy debate in the literature about the appropriate reference to use for EEG analysis and it will depend greatly on the type of experiment you are running and previous research. However, increasingly, with high numbers of electrodes placed all over the scalp many researchers are choosing to use an ‘average reference’ – that is, the average voltage measurement taken across all electrodes is used as the reference point, rather than measurements taken from any one electrode.</p>
 <section id="how" class="level2">
 <h2 class="anchored" data-anchor-id="how">How</h2>
 <p>To re-reference the data to the average reference in EEGLAB click:</p>
 <pre><code>-&gt; Tools
   -&gt; Re-reference the data</code></pre>
 <p><img src="steps\20.png" class="img-fluid" width="400"></p>
-<p>In the pop up that appears, click <code>Compute average reference</code> and select <code>Ok</code>.</p>
+<p>In the pop-up that appears, click <code>Compute average reference</code> and select <code>Ok</code>.</p>
 <p><img src="steps\21.png" class="img-fluid" width="400"></p>
 <p>You will then be prompted to name the dataset, make sure you also select the option to <code>Save it as a file</code> and append the name with an appropriate suffix, we used <code>_rr</code> to denote re-reference.</p>
 <p><img src="steps\22.png" class="img-fluid" width="400"></p>
