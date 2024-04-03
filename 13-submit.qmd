@@ -9,7 +9,7 @@
 
 [Download and complete the EEG template](template.docx)
 
-This template will require you to include an image of the grand average ERP that is the result of the analysis you will have completed if you have gone through the analysis steps correctly. 
+This template includes an image of the grand average ERP that was generated as the result of the analysis you will have completed if you have gone through the analysis steps correctly - you will need to label and describe this figure. You will also be asked about the analysis procedure you engaged with and to explain elements of the process. Finally, you will be presented with some fictional EEG findings and asked to interpret and explain them. 
 
 
 
