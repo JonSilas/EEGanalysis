@@ -6,12 +6,12 @@
 ![](images/logo.jpg){width="200"}
 :::
 
-This is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to 'EEG Analysis'. Your portfolio is worth 80% of your grade and EEG Analysis and the write up is worth 40% of the portfolio.
+This is a companion guide to the module PSY4070 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to 'EEG Analysis'. Your portfolio is worth 80% of your grade and EEG Analysis and the write up is worth 40% of the portfolio.
 
 ::: {.callout-important collapse="true" title="Portfolio Deadline"}
 You should submit your final functioning EEG analysis write up as part of your portfolio.
 
-**Portfolio submission deadline - 15.04.24 10am**
+**Portfolio submission deadline - 21.04.25 10am**
 
 [See instructions on how to submit your work here](13-submit.qmd)
 
