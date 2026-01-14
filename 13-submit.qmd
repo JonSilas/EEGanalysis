@@ -2,6 +2,7 @@
 
 ::: {.callout-important title="Lab Report Deadline"}
 **You should submit your portfolio and your experiment no later than April 10th 2026, 10am**
+
 :::
 
 ## EEG write up
@@ -15,5 +16,5 @@ You should complete this template and submit it as your lab report. You will hav
 
 ## Written component
 
-Your final Lab Report accounts for 100% of your grade for this module. Your Lab report should be submitted as one document on MyLearning [here](https://mdx.mrooms.net/mod/turnitintooltwo/view.php?id=3500311) (log in to MyLearning required)
 
+Your final Lab Report accounts for 100% of your grade for this module. Your Lab report should be submitted as one document on MyLearning [here](https://mdx.mrooms.net/mod/turnitintooltwo/view.php?id=3500311) (log in to MyLearning required).
