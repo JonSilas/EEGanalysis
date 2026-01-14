@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "EEG Analysis",
     "section": "",
-    "text": "Introduction\nThis is a companion guide to the module PSY4061 Practical Cognitive Neuroscience and is aimed specifically at helping you with the component of the portfolio linked to ‘EEG Analysis’. Your portfolio is worth 80% of your grade and EEG Analysis and the write up is worth 40% of the portfolio.\nFor this part of your assessment, you will have to analyse some EEG data and then answer some general questions about EEG analysis and interpret some EEG data. The EEG analysis is taught in a program called EEGLAB.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or Word document by clicking the download button in the menu and selecting your preferred format.",
+    "text": "Introduction\nThis is a companion guide to the module PSY4250 EEG for Cognitive Neuroscience and is aimed specifically at helping you with the component of the Lab Report linked to ‘EEG Analysis’. Your Lab Report is worth 100% of your grade.\nFor this part of your assessment, you will have to analyse some EEG data and then answer some general questions about EEG analysis and interpret some EEG data. The EEG analysis is taught in a program called EEGLAB.\nThe resources and support in this online guide should be used in conjunction with the other forms of support available to you; in-class, via email and in one-to-ones with the module leaders. This whole guide can be downloaded as a PDF or Word document by clicking the download button in the menu and selecting your preferred format.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -464,7 +464,7 @@
     "href": "13-submit.html",
     "title": "How to Submit",
     "section": "",
-    "text": "EEG write up\nDownload and complete the EEG template\nThis template includes an image of the grand average ERP that was generated as the result of the analysis you will have completed if you have gone through the analysis steps correctly - you will need to label and describe this figure. You will also be asked about the analysis procedure you engaged with and to explain elements of the process. Finally, you will be presented with some fictional EEG findings and asked to interpret and explain them.",
+    "text": "EEG write up\nDownload and complete the Lab Report template\nYou should complete this template and submit it as your lab report. You will have to have first analysed the EEG data on this website in order to answer the questions on EEG analysis.",
     "crumbs": [
       "How to Submit"
     ]
@@ -474,7 +474,7 @@
     "href": "13-submit.html#written-component",
     "title": "How to Submit",
     "section": "Written component",
-    "text": "Written component\nYour final portfolio accounts for 80% of your grade for this module. Your EEG analysis and answer to the template questions should form part of your portfolio that should be submitted as one document on MyLearning here (log in to MyLearning required)",
+    "text": "Written component\nYour final Lab Report accounts for 100% of your grade for this module. Your Lab report should be submitted as one document on MyLearning here (log in to MyLearning required)",
     "crumbs": [
       "How to Submit"
     ]

@@ -1,19 +1,19 @@
 # How to Submit {.unnumbered}
 
-::: {.callout-important title="Portfolio Deadline"}
-**You should submit your portfolio and your experiment no later than April 15th 2024, 10am**
+::: {.callout-important title="Lab Report Deadline"}
+**You should submit your portfolio and your experiment no later than April 10th 2026, 10am**
 :::
 
 ## EEG write up
 
 
-[Download and complete the EEG template](template.docx)
+[Download and complete the Lab Report template](Lab report - template.docx)
 
-This template includes an image of the grand average ERP that was generated as the result of the analysis you will have completed if you have gone through the analysis steps correctly - you will need to label and describe this figure. You will also be asked about the analysis procedure you engaged with and to explain elements of the process. Finally, you will be presented with some fictional EEG findings and asked to interpret and explain them. 
+You should complete this template and submit it as your lab report. You will have to have first analysed the EEG data on this website in order to answer the questions on EEG analysis. 
 
 
 
 ## Written component
 
-Your final portfolio accounts for 80% of your grade for this module. Your EEG analysis and answer to the template questions  should form part of your portfolio that should be submitted as one document on MyLearning [here](https://mdx.mrooms.net/mod/turnitintooltwo/view.php?id=2620188) (log in to MyLearning required)
+Your final Lab Report accounts for 100% of your grade for this module. Your Lab report should be submitted as one document on MyLearning [here](https://mdx.mrooms.net/mod/turnitintooltwo/view.php?id=3500311) (log in to MyLearning required)
 
