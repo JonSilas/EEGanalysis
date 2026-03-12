@@ -1,13 +1,18 @@
+:::: {.columns}
+
+::: {.column width="75%"}
+
 
 # Introduction
 
-
-::: {style="float:right;position: relative; top: -80px;"}
-![](images/logo.jpg){width="200"}
+This is a companion guide to the module PSY4250 EEG for Cognitive Neuroscience and is aimed specifically at helping you with the component of the Lab Report linked to 'EEG Analysis'. Your Lab Report is worth 100% of your grade.
 :::
 
+::: {.column width="25%"}
+![](images/logo.jpg){width="200"}
+:::
+::::
 
-This is a companion guide to the module PSY4250 EEG for Cognitive Neuroscience and is aimed specifically at helping you with the component of the Lab Report linked to 'EEG Analysis'. Your Lab Report is worth 100% of your grade.
 
 
 ::: {.callout-important collapse="true" title="Lab Report Deadline"}
