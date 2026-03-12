@@ -20,7 +20,7 @@ Both usually refer to a small section of the EEG data usually around a specific 
 
 ### Segment {#sec-seg}
 
-EEGLAB allows you to segment the data and, at the same time, conduct a baseline correction. 
+EEGLAB allows you to segment the data using the following tool: 
 
     -> Tools
       -> Extract epochs
@@ -28,7 +28,7 @@ EEGLAB allows you to segment the data and, at the same time, conduct a baseline 
 ![](steps\45.png){width="500"}
 
 
-In the next pop-up window, we want to specify the events, we'll first lock to the presentation of images during the rhythmic condition so click on the three dots `...` and select the trigger `S 10`. We want to specify 100 ms before the image and up to one second after as our epoch. To do so, in the `Epoch limits [start, end] in seconds` enter `0.1 1`. 
+In the next pop-up window, we want to specify the events, we'll first lock to the presentation of images during the rhythmic condition so click on the three dots `...` and select the trigger `S 10`. We want to specify 100 ms before the image and up to one second after as our epoch. To do so, in the `Epoch limits [start, end] in seconds` enter `-0.1 1`. 
 
 ![](steps\46.png){width="600"}
 
@@ -39,7 +39,14 @@ In the next pop-up save it so you can identify the dataset as one that is segmen
 
 ### Baseline correct
 
-An automatic pop-up will prompt you to baseline correct, the default should use the pre-stimulus period as a baseline and this is what we want so you can simply accept by clicking `Ok`. 
+We next need to correct the segmented data such that it is relative to a pre-stimulus baseline. 
+
+    -> Tools
+      -> Remove epoch baseline
+      
+![](steps\47a.png){width="500"}
+
+An pop-up will prompt you to baseline correct, the default should use the pre-stimulus period as a baseline and this is what we want so you can simply accept by clicking `Ok`. 
 
 ![](steps\48.png){width="600"}
 
@@ -83,7 +90,7 @@ You can click on any electrode for a closer look at the ERP for that electrode.
 
 ### Segment the next condition
 
-We now want to extract the data averaged around the 'arrhythmic' condition. To do this we need to load a dataset before we run the segmentation procedure, in our case we labelled the file `P03_resampled_fl0.1_40_rr_ICA)ar`, click: 
+We now want to extract the data averaged around the 'arrhythmic' condition. To do this we need to load a dataset before we run the segmentation procedure, in our case we labelled the file `P03_resampled_fl0.1_40_rr_ICA_ar`, click: 
 
     -> File
       -> Load existing dataset
@@ -92,7 +99,7 @@ Select your file that has been resampled, filtered, interpolated (if needed), re
 
 ![](steps\55.png){width="400"}
 
-Once you've loaded the file - we want to segment based on the arrhythmic condition. To do so follow through the previous steps in this chapter from [Segment](11-segmentation.qmd#sec-seg). But this time, segment around the trigger `S 13`. 
+Once you've loaded the file - we want to segment based on the arrhythmic condition. To do so follow through the previous steps in this chapter from [Segment](11-segmentation.qmd#sec-seg). But this time, segment around the trigger `S 12`. 
 
 ::: {.callout-important collapse="true"}
 # Trigger values
@@ -100,7 +107,7 @@ When you are segmenting the data, it's important you remember that you need to d
 
 **`S 10` = Rhythmic condition**  
 
-**`S 13` = Arrhythmic condition**   
+**`S 12` = Arrhythmic condition**   
 :::
 
 
